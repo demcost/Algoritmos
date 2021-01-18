@@ -27,6 +27,10 @@ namespace AuxProjects
             Head = head;
         }
 
+        /// <summary>
+        /// Adiciona um nó ao final da lista
+        /// </summary>
+        /// <param name="node"></param>
         public void AddNode(Node node)
         {
             if (Head == null)
@@ -53,21 +57,88 @@ namespace AuxProjects
             }
         }
 
+        /// <summary>
+        /// Adiciona na posição solicitada
+        /// </summary>
+        /// <param name="node"></param>
+        public void AddNodeOnIndex(Node node, int index)
+        {
+            //Se o indice é maior que o número de itens da lista, não permitir a inclusão
+            //Lembrando que index is zero based
+            
+            int listLength = GetLength();
+
+            if (index > listLength - 1)
+            {
+                AddNode(node);
+                return;
+            }
+            
+
+            //caso contrário varrer a lista até o indice informado
+            int count = 0;
+            Node currentlyNode = Head;
+
+            while (currentlyNode != null)
+            {
+                int prevIndex = index - 1;
+
+                if (prevIndex < 0)
+                {
+                    node.next = currentlyNode;
+                    Head = node;
+                    return;
+                }
+
+                if (count == prevIndex)
+                {
+                    node.next = currentlyNode.next;
+                    currentlyNode.next = node;
+                    return;
+                }
+
+                currentlyNode = currentlyNode.next;
+                count++;
+            }
+        }
+
+        /// <summary>
+        /// Retorna a lista completa
+        /// </summary>
+        /// <returns></returns>
         public string GetLinkedList()
         {
             string sReturn = string.Empty;
 
             Node currentlyNode = Head;
 
-            while (currentlyNode.next != null)
+            while (currentlyNode != null)
             {
-
                 sReturn += currentlyNode.val + " -> ";
 
                 currentlyNode = currentlyNode.next;
             }
 
             return sReturn;
-        } 
+        }
+        
+        /// <summary>
+        /// Obtém o tamanho da lista
+        /// </summary>
+        /// <returns></returns>
+        public int GetLength()
+        {
+            Node currentlyNode = Head;
+
+            int listLength = 0;
+
+            while (currentlyNode != null)
+            {
+                listLength++;
+                currentlyNode = currentlyNode.next;
+            }
+
+            return listLength;
+        }
     }
 }

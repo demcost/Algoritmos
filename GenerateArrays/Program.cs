@@ -10,37 +10,46 @@ namespace AuxProjects
     {
         static void Main(string[] args)
         {
-            //Random random = new Random();
 
-            //int[] randomArray  = { };
-
-            //for(int i = 1; i <= 100; i++ )
-            //{
-            //   int number = random.Next(65536) - 32768;
-
-            //   randomArray.Append(number);
-            //}
-
-
-            //Console.WriteLine(randomArray);
-
-            Node head = new Node(100);
-
+            // Criação da lista
+            Node head = new Node(1);
             LinkedListExerc linkedList = new LinkedListExerc(head);
-
-            Node secondNode = new Node(15);
-
-            linkedList.AddNode(secondNode);
-
-            Node thirdNode = new Node(20);
-
-            linkedList.AddNode(thirdNode);
-
-            Node fourthNode = new Node(20);
-
-            linkedList.AddNode(fourthNode);
-
             Console.Write(linkedList.GetLinkedList());
+            Console.WriteLine();
+            //resultado: 1 ->
+
+            //Adicionando o segundo nó ao final da lista
+            Node secondNode = new Node(2);
+            linkedList.AddNode(secondNode);
+            Console.Write(linkedList.GetLinkedList());
+            Console.WriteLine();
+            //resultado: 1 -> 2 ->
+
+            //Adicionando o quarto nó ao final da lista
+            Node fourthNode = new Node(4);
+            linkedList.AddNode(fourthNode);
+            Console.Write(linkedList.GetLinkedList());
+            Console.WriteLine();
+            //resultado: 1 -> 2 -> 4 ->
+
+            Node thirdNode = new Node(3);
+            linkedList.AddNodeOnIndex(thirdNode, 2);
+            Console.Write(linkedList.GetLinkedList());
+            Console.WriteLine();
+            //resultado: 1 -> 2 -> 3 -> 4 ->
+
+            Node changeHeadNode = new Node(0);
+            linkedList.AddNodeOnIndex(changeHeadNode, 0);
+            Console.Write(linkedList.GetLinkedList());
+            Console.WriteLine();
+            //resultado: 0 -> 1 -> 2 -> 3 -> 4 ->
+
+
+            Node changeTailNode = new Node(5);
+            linkedList.AddNodeOnIndex(changeTailNode, 5);
+            Console.Write(linkedList.GetLinkedList());
+            Console.WriteLine();
+            //resultado: 0 -> 1 -> 2 -> 3 -> 4 -> 5 ->
 
             Console.ReadLine();
 
