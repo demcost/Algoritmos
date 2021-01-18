@@ -1,0 +1,7 @@
+C:\Users\demcost\source\repos\Learning\GenerateArrays\obj\Debug\AuxProjects.csprojAssemblyReference.cache
+C:\Users\demcost\source\repos\Learning\GenerateArrays\obj\Debug\AuxProjects.csproj.CoreCompileInputs.cache
+C:\Users\demcost\source\repos\Learning\GenerateArrays\bin\Debug\AuxProjects.exe.config
+C:\Users\demcost\source\repos\Learning\GenerateArrays\bin\Debug\AuxProjects.exe
+C:\Users\demcost\source\repos\Learning\GenerateArrays\bin\Debug\AuxProjects.pdb
+C:\Users\demcost\source\repos\Learning\GenerateArrays\obj\Debug\AuxProjects.exe
+C:\Users\demcost\source\repos\Learning\GenerateArrays\obj\Debug\AuxProjects.pdb

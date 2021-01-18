@@ -1,0 +1,7 @@
+C:\Users\demcost\source\repos\Learning\SortAlgorithms\bin\Debug\SortAlgorithms.exe.config
+C:\Users\demcost\source\repos\Learning\SortAlgorithms\bin\Debug\SortAlgorithms.exe
+C:\Users\demcost\source\repos\Learning\SortAlgorithms\bin\Debug\SortAlgorithms.pdb
+C:\Users\demcost\source\repos\Learning\SortAlgorithms\obj\Debug\SortAlgorithms.csprojAssemblyReference.cache
+C:\Users\demcost\source\repos\Learning\SortAlgorithms\obj\Debug\SortAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\demcost\source\repos\Learning\SortAlgorithms\obj\Debug\SortAlgorithms.exe
+C:\Users\demcost\source\repos\Learning\SortAlgorithms\obj\Debug\SortAlgorithms.pdb
