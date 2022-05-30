@@ -1,7 +1,7 @@
 C:\Users\demcost\source\repos\Learning\Methods\bin\Debug\Methods.exe.config
 C:\Users\demcost\source\repos\Learning\Methods\bin\Debug\Methods.exe
 C:\Users\demcost\source\repos\Learning\Methods\bin\Debug\Methods.pdb
-C:\Users\demcost\source\repos\Learning\Methods\obj\Debug\Methods.csprojAssemblyReference.cache
 C:\Users\demcost\source\repos\Learning\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
 C:\Users\demcost\source\repos\Learning\Methods\obj\Debug\Methods.exe
 C:\Users\demcost\source\repos\Learning\Methods\obj\Debug\Methods.pdb
+C:\Users\demcost\source\repos\Learning\Methods\obj\Debug\Methods.csproj.AssemblyReference.cache

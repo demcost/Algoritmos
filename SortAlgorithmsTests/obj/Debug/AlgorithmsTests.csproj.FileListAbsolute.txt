@@ -13,8 +13,8 @@ C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\bin\Debug\SortAlgorit
 C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\bin\Debug\SortAlgorithms.exe.config
 C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\obj\Debug\AlgorithmsTests.csprojAssemblyReference.cache
 C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\obj\Debug\AlgorithmsTests.csproj.CoreCompileInputs.cache
 C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\obj\Debug\AlgorithmsTests.csproj.CopyComplete
 C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\obj\Debug\SortAlgorithmsTests.dll
 C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\obj\Debug\SortAlgorithmsTests.pdb
+C:\Users\demcost\source\repos\Learning\SortAlgorithmsTests\obj\Debug\AlgorithmsTests.csproj.AssemblyReference.cache

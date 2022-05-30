@@ -1,5 +1,4 @@
 C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\bin\Debug\netcoreapp3.0\MicrosoftGraphSamples.exe
-C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreapp3.0\MicrosoftGraphSamples.csprojAssemblyReference.cache
 C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreapp3.0\MicrosoftGraphSamples.AssemblyInfoInputs.cache
 C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreapp3.0\MicrosoftGraphSamples.AssemblyInfo.cs
 C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
@@ -26,3 +25,5 @@ C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreap
 C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreapp3.0\MicrosoftGraphSamples.csproj.CoreCompileInputs.cache
 C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreapp3.0\MicrosoftGraphSamples.genruntimeconfig.cache
+C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreapp3.0\MicrosoftGraphSamples.csproj.AssemblyReference.cache
+C:\Users\demcost\source\repos\Learning\MicrosoftGraphSamples\obj\Debug\netcoreapp3.0\MicrosoftGraphSamples.GeneratedMSBuildEditorConfig.editorconfig

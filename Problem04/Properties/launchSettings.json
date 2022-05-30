@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Problem04": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": "result.txt"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 C:\Users\demcost\source\repos\Learning\SearchAlgorithms\bin\Debug\SearchAlgorithms.exe.config
 C:\Users\demcost\source\repos\Learning\SearchAlgorithms\bin\Debug\SearchAlgorithms.exe
 C:\Users\demcost\source\repos\Learning\SearchAlgorithms\bin\Debug\SearchAlgorithms.pdb
-C:\Users\demcost\source\repos\Learning\SearchAlgorithms\obj\Debug\SearchAlgorithms.csprojAssemblyReference.cache
 C:\Users\demcost\source\repos\Learning\SearchAlgorithms\obj\Debug\SearchAlgorithms.csproj.CoreCompileInputs.cache
 C:\Users\demcost\source\repos\Learning\SearchAlgorithms\obj\Debug\SearchAlgorithms.exe
 C:\Users\demcost\source\repos\Learning\SearchAlgorithms\obj\Debug\SearchAlgorithms.pdb
+C:\Users\demcost\source\repos\Learning\SearchAlgorithms\obj\Debug\SearchAlgorithms.csproj.AssemblyReference.cache
