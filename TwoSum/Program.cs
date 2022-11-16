@@ -1,27 +1,23 @@
-﻿using System;
+﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TwoSum
 {
-    class Program
+    [MemoryDiagnoser]
+    public class SumProgram
     {
-        static void Main(string[] args)
+
+        public IEnumerable<object[]> Data()
         {
-            int[] nums = { 0, 1, 2, 7, 11, 15 };
-            int target = 9;
+            yield return new object[] { new int[] { 0, 2, 1, 7, 15, 31, 16, 18, 20, 40, 25, 38, 26, 27, 29, 30, 11, 51, 35, 37, 45, 49, 50, 52, 53, 55, 57, 60, 61, 62, 63, 64, 65, 66, 67, 70, 73, 74, 75, 80, 81, 83, 84, 85, 87, 88, 90 }, 26 };
 
-            int[] result = TwoSum(nums, target);
-            int[] result2 = TwoSumOther(nums, target);
-
-            Console.WriteLine(result.ToString());
-            Console.WriteLine(result2.ToString());
-            Console.ReadKey();
         }
 
-        public static int[] TwoSum(int[] nums, int target)
+        [Benchmark(Baseline = true)]
+        [ArgumentsSource(nameof(Data))]
+        public int[] TwoSum_On2(int[] nums, int target)
         {
             int[] returnArray = new int[2];
 
@@ -29,7 +25,7 @@ namespace TwoSum
             {
                 for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if(nums[i] + nums[j] == target)
+                    if (nums[i] + nums[j] == target)
                     {
                         returnArray.SetValue(i, 0);
                         returnArray.SetValue(j, 1);
@@ -45,7 +41,10 @@ namespace TwoSum
         }
 
 
-        public static int[] TwoSumOther(int[] nums, int target)
+        [Benchmark]
+        [ArgumentsSource(nameof(Data))]
+
+        public int[] TwoSum_On(int[] nums, int target)
         {
             Dictionary<int, int> numsDictionary = new Dictionary<int, int>();
 
@@ -53,7 +52,9 @@ namespace TwoSum
             {
                 int num = nums[i];
 
-                if (numsDictionary.TryGetValue(target - num, out int index))
+                int index = target - num;
+
+                if (numsDictionary.ContainsKey(index))
                 {
                     return new[] { index, i };
                 }
@@ -64,5 +65,22 @@ namespace TwoSum
             return new int[] { -1, -1 };
 
         }
+
+    }
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            BenchmarkRunner.Run<SumProgram>();
+
+            //SumProgram sumprogram = new SumProgram();
+            //sumprogram.TwoSumOther(new int[] { 0, 1, 2, 7 }, 9);
+
+            Console.ReadLine();   
+        }
+
+        
     }
 }

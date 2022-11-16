@@ -11,23 +11,26 @@ namespace RemoveDuplicates
 
         public static int RemoveDuplicates(int[] nums)
         {
-
-            if (nums.Length == 1)
-                return nums.Length;
-
-            
+            int result = 0;
 
             for (int i = 0; i < nums.Length; i++)
             {
-
-
-                if (nums[i] != choosenElement)
+                for (int j = i + 1; j < nums.Length; j++)
                 {
+                    if (nums[i] == nums[j])
+                    {
+                        result++;
+
+                        for (int z = j; z < nums.Length - 1; z++)
+                        {
+                            nums[z] = nums[z + 1];
+                            nums[z + 1] = -1;
+                        }
+                    }
                 }
             }
 
-
-            return j;
+            return result;
         }
     }
 }
